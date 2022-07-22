@@ -1,0 +1,200 @@
+@media only screen and (max-width: 1140px) {
+    .angle {
+        width: 21.95%;
+    }
+    .opinion {
+        width: 49.69%;
+    }
+    .threading-comments {
+        width: 28.36%;
+    }
+    .width-p {
+        width: 89%;
+        padding: 10px 0px 8px 0;
+    }
+}
+
+@media only screen and (max-width: 1065px) {
+    .angle {
+        width: 22.95%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .my-hats {
+        padding: 8px 20px 11px 87px;
+    }
+    .angle {
+        width: 16.95%;
+    }
+    .opinion {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .mobile-back,
+    hr,
+    .mobile-com,
+    footer,
+    .camera {
+        display: block;
+    }
+    header,
+    .hat,
+    .followed,
+    .send-massage,
+    .front-border,
+    .front-border-top,
+    .angle,
+    .mobile-hide,
+    .follow,
+    .more,
+    .express p,
+    .stop,
+    .fire,
+    .lastseen,
+    .pie-user-details-2 p,
+    .pie-user-details-1 p,
+    .face-4,
+    .face-3,
+    .comm,
+    .social-footer {
+        display: none;
+    }
+    .user-details {
+        padding: 0px 0 17px 0;
+    }
+    .profile {
+        padding: 0;
+    }
+    .bar {
+        padding: 10px;
+        background-color: var(--red);
+        margin-bottom: 0px;
+    }
+    .my-hats {
+        padding: 8px 20px 11px 0px;
+    }
+    .like-comment-box {
+        padding: 20px;
+        background-color: #f3f6f6;
+    }
+    .like-comment-box-inner {
+        flex-direction: column;
+        background-color: white;
+        border: none;
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+        box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.05);
+    }
+    .opinion,
+    .threading-comments {
+        width: 100%;
+        padding: 10px 18px 10px 18px;
+    }
+    .economy {
+        display: flex;
+        justify-content: center;
+    }
+    .express {
+        display: inline-block;
+        padding: 10px;
+        width: auto;
+        height: auto;
+    }
+    .pie-chart {
+        width: 72px;
+        height: 72px;
+    }
+    .investors {
+        justify-content: flex-start;
+    }
+    .like-comment-box {
+        padding: 20px 20px 150px 20px;
+    }
+    .width-p {
+        width: 100%;
+        padding: 10px 0px 10px 0;
+    }
+    hr {
+        color: #d9d9d9;
+    }
+    .pie-user-photo {
+        width: 40px;
+        height: 40px;
+    }
+    .economy p {
+        font-size: 18px;
+    }
+    .investors-ratio p span {
+        font-size: 30px;
+    }
+    .investors-ratio h3 {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .investors-ratio p {
+        font-size: 14px;
+    }
+    .investors-comperision {
+        justify-content: center;
+    }
+    .pie-user-details-2 {
+        padding: 0 10px 0 0;
+    }
+    .pie-user-details-1 {
+        padding: 0 0 0 10px;
+        text-align: center;
+    }
+    .comperision-chart {
+        width: 75px;
+        height: 75px;
+    }
+    .winning-trophy img {
+        padding: 2.2px;
+    }
+    .pie-user-photo-1 {
+        width: 60px;
+        height: 60px;
+    }
+    .face-1 {
+        margin-left: -7px;
+    }
+    .user-likes p {
+        padding-right: 10px;
+    }
+    .camera {
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .hats-count p {
+        font-size: 14px;
+    }
+    .social p {
+        margin: 0px 7px 0 3px;
+        font-size: 12px;
+    }
+    .social svg {
+        width: 30px;
+    }
+    .social img {
+        width: 20px;
+    }
+    .social {
+        padding: 0 5px;
+        margin: 0 5px;
+    }
+    .user-profile p {
+        font-size: 14px;
+    }
+    .user-photo {
+        width: 42px;
+        height: 42px;
+    }
+}

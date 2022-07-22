@@ -1,0 +1,98 @@
+@media only screen and (max-width: 768px) {
+    header,
+    .hat,
+    .front-border,
+    .front-border-top,
+    .new-add,
+    .live-chat,
+    .social-footer,
+    .social-footer,
+    hr {
+        display: none;
+    }
+    .mobile-back,
+    .mobile-inner-chat,
+    footer {
+        display: block;
+    }
+    .user-details {
+        padding: 0px 0 17px 0;
+    }
+    .profile {
+        padding: 0;
+    }
+    .bar {
+        background-color: var(--red);
+        padding: 10px;
+    }
+    .my-hats {
+        padding: 8px 0px 11px 0px;
+    }
+    .chat-box {
+        display: block;
+    }
+    .chat-person,
+    .live-chat {
+        width: 100%;
+        padding: 27px 14px 0 16px;
+    }
+    #style-3 {
+        height: 840px;
+        padding: 17px 32px 0;
+    }
+    .user-chat {
+        padding: 0px 12px 7px 0px;
+    }
+    .number {
+        right: -9px;
+        bottom: -4px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .hats-count p {
+        font-size: 14px;
+    }
+    .social p {
+        margin: 0px 7px 0 3px;
+        font-size: 12px;
+    }
+    .social svg {
+        width: 30px;
+    }
+    .social img {
+        width: 20px;
+    }
+    .social {
+        padding: 0 5px;
+        margin: 0 5px;
+    }
+    .user-profile p {
+        font-size: 14px;
+    }
+    .user-photo {
+        width: 42px;
+        height: 42px;
+    }
+    .number {
+        width: 21px;
+        height: 18px;
+    }
+    .number p {
+        margin-top: 0px;
+        font-size: 12px;
+    }
+    .round1 {
+        width: 19px;
+        height: 16px;
+        font-size: 10px;
+        right: 5px;
+        top: 8px;
+    }
+    .round1 p {
+        font-size: 10px;
+    }
+    .hats-count1 p {
+        padding: 2px;
+    }
+}

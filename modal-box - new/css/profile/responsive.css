@@ -1,0 +1,114 @@
+@media only screen and (max-width:786px) {
+    .stars {
+        padding: 30px 70px 66px 70px;
+    }
+    .user-details {
+        padding: 0;
+    }
+    .social-footer {
+        padding: 0;
+    }
+    .user,
+    .hat,
+    .new-add,
+    .front-border,
+    .front-border-top,
+    .black,
+    .more,
+    .social-footer {
+        display: none!important;
+    }
+    .category {
+        padding: 15px 0 17px 0;
+    }
+    .profile {
+        padding: 0;
+    }
+    .my-hats {
+        padding: 9px 10px 5px 0px;
+    }
+    .my-hats p {
+        display: flex;
+    }
+    .bar {
+        padding: 10px;
+        background-color: var(--red);
+        margin-bottom: 20px;
+    }
+    .red,
+    footer,
+    .mobile-back {
+        display: block;
+    }
+    .search input::placeholder,
+    .my-hats p {
+        font-size: 17px;
+    }
+    .star-text p {
+        padding: 14.7px 0 16px 0;
+    }
+    .check-box {
+        padding: 0;
+    }
+    .col-md-3 {
+        width: 50%;
+    }
+    .social p {
+        margin: 0px 5px 0 3px;
+        font-size: 12px;
+    }
+    .social svg {
+        width: 30px;
+    }
+    .social img {
+        width: 20px;
+    }
+    .social {
+        padding: 0 5px;
+        margin: 0 5px;
+    }
+    .search input {
+        width: 180px;
+    }
+    .left img {
+        width: 309px;
+    }
+    element {
+        width: 246px;
+    }
+    .col-2 {
+        width: 16.66%;
+    }
+    footer {
+        background-color: white;
+    }
+    .hats-count1 {
+        cursor: pointer;
+        padding: 0;
+        padding: 19px 0 0 0;
+    }
+    .hats-count1 p {
+        font-size: 13px;
+        padding: 2px;
+    }
+    .round1 {
+        width: 20px;
+        height: 19px;
+        font-size: 10px;
+        color: #fff;
+        right: 8px;
+        top: 2px;
+        background-color: #27ae60;
+        text-align: center;
+        position: absolute;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .stars {
+        padding: 30px 30px 66px 30px;
+    }
+    .social-footer {
+        display: none;
+    }
+}

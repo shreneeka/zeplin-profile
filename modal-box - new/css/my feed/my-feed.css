@@ -1,0 +1,485 @@
+/* user-button --------------------------------> */
+
+.social {
+    padding: 5px 8px;
+}
+
+.border {
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+}
+
+.followed {
+    margin-left: 10px;
+    box-shadow: 0 10px 14px 0 rgba(0, 0, 0, 0.04), 0 0 14px 0 rgba(0, 0, 0, 0.04), 0 2px 2px 0 rgba(0, 0, 0, 0.02);
+    padding: 0 28px;
+    cursor: pointer;
+    border: 1.5px solid transparent;
+    transition-duration: 0.5s;
+}
+
+.followed:hover {
+    border: 1.5px solid var(--red);
+}
+
+.followed p {
+    color: var(--red);
+}
+
+.send-massage {
+    margin-left: 10px;
+    background-color: var(--red);
+    padding: 0 15px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.send-massage:hover {
+    background-color: #dc353bf5;
+}
+
+.my-hats {
+    padding: 8px 20px 11px 156px;
+}
+
+
+/* like-comment-box --------------------------------> */
+
+.like-comment-box {
+    padding: 0 40px;
+}
+
+.like-comment-box-inner {
+    border: solid 1.5px #dadada;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+
+/* threading-comments --------------------------------> */
+
+.threading-comments {
+    width: 45.36%;
+}
+
+.angle {
+    width: 11.95%;
+}
+
+.opinion {
+    width: 42.69%;
+    padding: 7.5px 8px 9px 7.5px;
+}
+
+.comm {
+    background-color: #eeeeee;
+    display: inline-block;
+    padding: 3px 9px 4px 30px;
+    border-bottom-left-radius: 25px;
+}
+
+.comm p {
+    color: var(--red);
+    font-size: 14px;
+}
+
+.side-tri {
+    width: 20px;
+    height: 20px;
+    background-color: #eeeeee;
+    position: absolute;
+    left: -46px;
+    top: -3px;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+
+.economy {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.width-p {
+    width: 83%;
+    padding: 40px 0px 40px 0;
+}
+
+.economy p {
+    font-size: 24px;
+    color: #222222;
+}
+
+.fire p {
+    color: #eb5757;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.lastseen p {
+    color: #a0a0a0;
+    font-size: 12px;
+    padding: 0 20px 0 0;
+}
+
+
+/*angle--------------------------------> */
+
+.angle img {
+    height: 100%;
+}
+
+
+/*opinion--------------------------------> */
+
+.follow {
+    position: relative;
+    justify-content: flex-end;
+    margin-bottom: -10px;
+    cursor: pointer;
+}
+
+.comments-avtar {
+    width: 55px;
+    height: 55px;
+    background-color: rgb(255, 182, 127);
+    border: solid 2px #fff;
+    flex-shrink: 0;
+}
+
+.comment-show {
+    width: 64%;
+    padding: 11px 27px 13px 17px;
+    box-shadow: 3px 3px 0 0 #f0f0f0;
+    border: solid 1.5px #d9d9d9;
+    background-color: #fff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-right: 20px;
+    position: relative;
+    -webkit-border-radius: 8px;
+}
+
+.arrow {
+    position: absolute;
+    top: 9px;
+    right: -10px;
+}
+
+.comment-show p {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.comment-show1 {
+    padding: 15px 0 0 0;
+}
+
+.like {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.like p {
+    font-size: 14px;
+    color: var(--red);
+}
+
+.comment1 p {
+    font-size: 14px;
+    color: var(--red);
+}
+
+.comments-bottom {
+    padding: 15px 0 0 0;
+}
+
+.user-face {
+    width: 29px;
+    height: 29px;
+    background-color: #eb5757;
+    border: 1px solid #fff;
+}
+
+.face-1 {
+    margin-left: -10px;
+    z-index: 10;
+}
+
+.face-2 {
+    z-index: 11;
+}
+
+.face-3 {
+    z-index: 12;
+}
+
+.face-4 {
+    z-index: 13;
+}
+
+.user-likes p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.express {
+    background-color: #ffe9ea;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+}
+
+.express p {
+    font-size: 14px;
+    color: var(--red);
+    margin-left: 7px;
+}
+
+.stop {
+    width: 1px;
+    height: 20px;
+    background-color: #d9d9d9;
+    margin: 0 0 0 20px;
+}
+
+
+/* pie-chart */
+
+.investors {
+    padding: 0 0 10px 0;
+}
+
+.pie-chart {
+    background: radial-gradient( circle closest-side, white 0, white 77%, transparent 31%, transparent 100%, white 0), conic-gradient( from 0deg, #ff586c 0, #ff7578 50%, #a6cee3 0, #a6cee3 65%, #b2df8a 0, #b2df8a 100%);
+    position: relative;
+    width: 110px;
+    height: 108px;
+}
+
+.pie-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.investors-ratio {
+    padding: 0 20px 0 0;
+    width: 160px;
+}
+
+.investors-ratio p span {
+    font-size: 35px;
+    color: #dc4456;
+}
+
+.investors-ratio p {
+    font-size: 17px;
+    color: #828282;
+}
+
+.investors-ratio h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.ratio-67 p span {
+    color: #b2df8a;
+}
+
+.pie-add-field {
+    background: radial-gradient( circle closest-side, white 0, white 77%, transparent 31%, transparent 100%, white 0), conic-gradient( from 0deg, #b2df8a 0, #b2df8a 35%, #ff586c 0, #ff586c 55%, #a6cee3 0, #a6cee3 70%, #33a02c 0, #33a02c 82%, #1f78b4 0, #1f78b4 94%, #fb9a99 0, #fb9a99 100%);
+}
+
+.pie-user-photo {
+    width: 60px;
+    height: 60px;
+    background-color: #33a02c;
+}
+
+
+/* comperision-chart */
+
+.investors-comperision {
+    padding: 15px 0 15px 0;
+}
+
+.chart-right {
+    margin-right: -15px;
+}
+
+.comperision-chart {
+    width: 90px;
+    height: 90px;
+    background: radial-gradient( circle closest-side, white 0, white 90%, transparent 31%, transparent 100%, white 0), conic-gradient( from 0deg, #ede5e5 0, #ede5e5 65%, #b2df8a 0, #b2df8a 100%);
+    z-index: 1;
+}
+
+.winning-trophy {
+    position: absolute;
+    bottom: -10px;
+    right: -6px;
+}
+
+.winning-trophy img {
+    box-shadow: 0 3.3px 9.9px 0 rgba(0, 0, 0, 0.12);
+    background-color: #fff;
+    padding: 5.2px;
+}
+
+.pie-user-photo-1 {
+    width: 72px;
+    height: 72px;
+    background-color: #33a02c;
+}
+
+.chart-left {
+    margin-left: -15px;
+}
+
+.comperision-chart-1 {
+    background: radial-gradient( circle closest-side, white 0, white 90%, transparent 31%, transparent 100%, white 0), conic-gradient( from 0deg, #ff586c 0, #ff586c 70%, #ede5e5 0, #ede5e5 100%);
+}
+
+.pie-user-details-1 {
+    padding: 0 0 0 21px;
+    text-align: left;
+}
+
+.pie-user-details-1 h3 {
+    color: #dc4456;
+    font-size: 21px;
+}
+
+.pie-user-details-1 p {
+    font-size: 16px;
+}
+
+.pie-user-details-2 {
+    padding: 0 19.3px 0 0;
+}
+
+.pie-user-details-2 h3 {
+    color: #89c158;
+    font-size: 21px;
+}
+
+.pie-user-details-2 p {
+    font-size: 16px;
+}
+
+.star-img p {
+    color: var(--red);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+
+/* refresh-------- */
+
+.more {
+    padding: 31px 0 87px 0;
+}
+
+.more img {
+    cursor: pointer;
+}
+
+.more p {
+    font-size: 14px;
+}
+
+.refresh {
+    animation-name: spin;
+    -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+}
+
+
+/* mobile-footer-------- */
+
+.mobile-footer {
+    background-color: white;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+
+/* mobile-comm-------- */
+
+hr,
+.mobile-com,
+footer,
+.camera {
+    display: none;
+}
+
+.mobile-com {
+    background-color: #f7f7f7;
+    padding: 5px 9px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.stop1 {
+    width: 1px;
+    height: 20px;
+    background-color: #d9d9d9;
+    margin: 0 8px 0 8px;
+}
+
+.mobile-com-time p {
+    font-size: 12px;
+    color: #a0a0a0;
+}
+
+.mobile-com-details p {
+    font-size: 12px;
+    color: #eb5757;
+    font-weight: 600;
+}
+
+.cliant-data {
+    cursor: pointer;
+}
+
+.cliant-data p {
+    color: #545454;
+    font-size: 12px;
+    padding: 8.4px 0 0 0;
+}
+
+.active-footer p {
+    color: var(--red);
+}

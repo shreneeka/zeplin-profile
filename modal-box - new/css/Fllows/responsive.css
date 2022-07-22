@@ -1,0 +1,112 @@
+@media only screen and (max-width:1039px) {
+    .user-photo {
+        margin: 0 0 0 12px;
+    }
+    .votes-under-div {
+        padding: 15px 9px 15px 1px;
+    }
+    .votes {
+        padding: 60px 43px 110px;
+    }
+    .comments,
+    .diss,
+    .vote {
+        width: 33%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .social-footer,
+    header,
+    .bar,
+    .hats-count:nth-child(1),
+    .hats-count:nth-child(2),
+    .hats-count:nth-child(3),
+    .hats-count:nth-child(6) {
+        display: none;
+    }
+    footer,
+    .mobile-back {
+        display: block;
+    }
+    .profile {
+        padding: 15px 0px 0px 0;
+    }
+    .hat {
+        justify-content: space-around;
+    }
+    .left-arrow {
+        order: 2;
+        width: 20%;
+    }
+    .user-profile {
+        float: right;
+        order: 2;
+        width: 80%;
+    }
+    .user-details {
+        padding: 0;
+    }
+    .votes {
+        padding: 0 10px 65px;
+    }
+    .comments,
+    .diss,
+    .vote {
+        width: 33.33%;
+        order: 3;
+        display: flex;
+        justify-content: center;
+        padding: 13px 0 0 0;
+        font-size: 12px;
+    }
+    .votes-under-div {
+        flex-wrap: wrap;
+        padding: 15px 9px 15px 9px;
+    }
+    #style-3 {
+        padding: 0 6px 0 0;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .hats-count p {
+        font-size: 14px;
+    }
+    .social p {
+        margin: 0px 5px 0 3px;
+        font-size: 12px;
+    }
+    .social svg {
+        width: 30px;
+    }
+    .social img {
+        width: 20px;
+    }
+    .social {
+        padding: 0 5px;
+        margin: 0 5px;
+    }
+    .social-footer {
+        display: none;
+    }
+    .user-profile p {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .user-photo {
+        width: 42px;
+        height: 42px;
+    }
+    .number {
+        width: 21px;
+        height: 18px;
+    }
+    .number p {
+        margin-top: 0px;
+        font-size: 12px;
+    }
+    .round1 {
+        right: 0px;
+    }
+}
